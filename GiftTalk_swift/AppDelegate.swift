@@ -15,7 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        let tab = tabBarController()
+        
+        window?.rootViewController = tab
+        
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4684F23B1CD9C2E2004612E0 /* KVNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684F23A1CD9C2E2004612E0 /* KVNavigationBar.swift */; };
+		4684F23D1CD9C3DC004612E0 /* KVTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4684F23C1CD9C3DC004612E0 /* KVTabBarButton.swift */; };
 		46A37B291CD8490A00F09B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A37B281CD8490A00F09B1C /* AppDelegate.swift */; };
 		46A37B2B1CD8490A00F09B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A37B2A1CD8490A00F09B1C /* ViewController.swift */; };
 		46A37B2E1CD8490A00F09B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A37B2C1CD8490A00F09B1C /* Main.storyboard */; };
 		46A37B301CD8490A00F09B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A37B2F1CD8490A00F09B1C /* Assets.xcassets */; };
 		46A37B331CD8490A00F09B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A37B311CD8490A00F09B1C /* LaunchScreen.storyboard */; };
+		46A37B3B1CD84C8D00F09B1C /* tabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A37B3A1CD84C8D00F09B1C /* tabBarController.swift */; };
+		46A37B441CD84F6C00F09B1C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A37B431CD84F6C00F09B1C /* HomeViewController.swift */; };
+		46A37B461CD84F7B00F09B1C /* HotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A37B451CD84F7B00F09B1C /* HotViewController.swift */; };
+		46A37B481CD851EF00F09B1C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A37B471CD851EF00F09B1C /* NavigationController.swift */; };
+		46A37B4A1CD8548400F09B1C /* meViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A37B491CD8548400F09B1C /* meViewController.swift */; };
+		46A37B4C1CD8549900F09B1C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A37B4B1CD8549900F09B1C /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4684F23A1CD9C2E2004612E0 /* KVNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVNavigationBar.swift; sourceTree = "<group>"; };
+		4684F23C1CD9C3DC004612E0 /* KVTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVTabBarButton.swift; sourceTree = "<group>"; };
 		46A37B251CD8490A00F09B1C /* GiftTalk_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftTalk_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A37B281CD8490A00F09B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46A37B2A1CD8490A00F09B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		46A37B2F1CD8490A00F09B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46A37B321CD8490A00F09B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46A37B341CD8490A00F09B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A37B3A1CD84C8D00F09B1C /* tabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tabBarController.swift; path = ../tabBarController.swift; sourceTree = "<group>"; };
+		46A37B431CD84F6C00F09B1C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../分类/HomeViewController.swift"; sourceTree = "<group>"; };
+		46A37B451CD84F7B00F09B1C /* HotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotViewController.swift; sourceTree = "<group>"; };
+		46A37B471CD851EF00F09B1C /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		46A37B491CD8548400F09B1C /* meViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meViewController.swift; sourceTree = "<group>"; };
+		46A37B4B1CD8549900F09B1C /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,12 @@
 		46A37B271CD8490A00F09B1C /* GiftTalk_swift */ = {
 			isa = PBXGroup;
 			children = (
+				46A37B3D1CD84EAD00F09B1C /* 分类 */,
+				46A37B3E1CD84EAD00F09B1C /* 热门 */,
+				46A37B3F1CD84EAD00F09B1C /* 首页 */,
+				46A37B401CD84EAD00F09B1C /* 我 */,
+				46A37B411CD84EAD00F09B1C /* main */,
+				46A37B421CD84EAD00F09B1C /* other */,
 				46A37B281CD8490A00F09B1C /* AppDelegate.swift */,
 				46A37B2A1CD8490A00F09B1C /* ViewController.swift */,
 				46A37B2C1CD8490A00F09B1C /* Main.storyboard */,
@@ -62,6 +84,56 @@
 				46A37B341CD8490A00F09B1C /* Info.plist */,
 			);
 			path = GiftTalk_swift;
+			sourceTree = "<group>";
+		};
+		46A37B3D1CD84EAD00F09B1C /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				46A37B4B1CD8549900F09B1C /* CategoryViewController.swift */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		46A37B3E1CD84EAD00F09B1C /* 热门 */ = {
+			isa = PBXGroup;
+			children = (
+				46A37B451CD84F7B00F09B1C /* HotViewController.swift */,
+			);
+			path = "热门";
+			sourceTree = "<group>";
+		};
+		46A37B3F1CD84EAD00F09B1C /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				46A37B431CD84F6C00F09B1C /* HomeViewController.swift */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		46A37B401CD84EAD00F09B1C /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				46A37B491CD8548400F09B1C /* meViewController.swift */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		46A37B411CD84EAD00F09B1C /* main */ = {
+			isa = PBXGroup;
+			children = (
+				46A37B3A1CD84C8D00F09B1C /* tabBarController.swift */,
+				46A37B471CD851EF00F09B1C /* NavigationController.swift */,
+				4684F23A1CD9C2E2004612E0 /* KVNavigationBar.swift */,
+				4684F23C1CD9C3DC004612E0 /* KVTabBarButton.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		46A37B421CD84EAD00F09B1C /* other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A37B4A1CD8548400F09B1C /* meViewController.swift in Sources */,
+				46A37B461CD84F7B00F09B1C /* HotViewController.swift in Sources */,
+				46A37B481CD851EF00F09B1C /* NavigationController.swift in Sources */,
 				46A37B2B1CD8490A00F09B1C /* ViewController.swift in Sources */,
+				4684F23D1CD9C3DC004612E0 /* KVTabBarButton.swift in Sources */,
+				46A37B4C1CD8549900F09B1C /* CategoryViewController.swift in Sources */,
+				46A37B3B1CD84C8D00F09B1C /* tabBarController.swift in Sources */,
 				46A37B291CD8490A00F09B1C /* AppDelegate.swift in Sources */,
+				4684F23B1CD9C2E2004612E0 /* KVNavigationBar.swift in Sources */,
+				46A37B441CD84F6C00F09B1C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +365,7 @@
 				46A37B391CD8490A00F09B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
