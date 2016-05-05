@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KVNavigationBar: UINavigationBar {
+class KVNavigationBar: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)

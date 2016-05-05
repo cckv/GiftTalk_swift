@@ -29,6 +29,8 @@ class NavigationController: UINavigationController {
         UIGraphicsEndImageContext();
         
         navigationBar.setBackgroundImage(image, forBarMetrics: .Default)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
